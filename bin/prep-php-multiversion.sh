@@ -59,6 +59,12 @@ sudo a2enconf php8.1-fpm
 #  The default action is to keep your current version.
 # *** www.conf (Y/I/N/O/D/Z) [default=N] ?
 
+# В процесі встановлення було виявлено користувацькі зміни в налаштуваннях які пропонується замінити налаштуваннями за замовчуванням
+#     Y or I  : встановити налаштування за замовчуванням
+#     N or O  : залишити користувацькі зміни
+#       D     : показати відмінності
+#       Z     : start a shell to examine the situation
+
 
 sudo systemctl restart apache2
 sudo systemctl reload apache2
