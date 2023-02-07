@@ -10,6 +10,9 @@ sudo apt-get install software-properties-common -y
 # The software-properties-common package provides the apt-add-repository command-line utility, which you will use to add the ondrej/php PPA (Personal Package Archive) repository.
 
 sudo add-apt-repository ppa:ondrej/php
+#
+# todo: prepare variant with building from sources
+#
 sudo apt-get update -y
 
 sudo apt-get install libapache2-mod-fcgid -y

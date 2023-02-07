@@ -34,3 +34,5 @@ fi
 
 # Other links:
 # https://gist.github.com/jesugmz/3fda0fc7c1006cedfe039ff1459c3174
+
+# todo: add detection based on https://patches.kernelcare.com/
