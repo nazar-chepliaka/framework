@@ -1,5 +1,13 @@
 #!/bin/sh
 
+
+# todo: 
+#sudo yum install epel-release yum-utils
+#sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+#sudo yum-config-manager --enable remi-php73
+#sudo yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysqlnd
+#....... (https://www.hostinger.com/tutorials/vps/how-to-install-lamp-stack-centos7)
+
 sudo apt-get install software-properties-common -y
 
 
