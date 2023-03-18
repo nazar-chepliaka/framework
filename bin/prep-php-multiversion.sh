@@ -112,6 +112,15 @@ sudo systemctl reload apache2
 #user = www-data
 #group = www-data
 
+#; Set permissions for unix socket, if one is used. In Linux, read/write
+#; permissions must be set in order to allow connections from a web server. Many
+#; BSD-derived systems allow connections regardless of permissions. The owner
+#; and group can be specified either by name or by their numeric IDs.
+#; Default Values: Owner is set to the master process running user. If the group
+#;                 is not set, the owner's group is used. Mode is set to 0660.
+#listen.owner = www-data
+#listen.group = www-data
+
 sudo systemctl restart php7.4-fpm
 sudo systemctl restart php8.1-fpm
 
