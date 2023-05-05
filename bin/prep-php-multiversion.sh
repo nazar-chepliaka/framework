@@ -134,6 +134,7 @@ sudo apt-get install php8.1-xml -y
 sudo apt-get install php8.1-curl -y
 sudo apt-get install php8.1-gd -y
 sudo apt-get install php8.1-zip -y
+sudo apt-get install php8.1-mbstring -y
 
 
 # Composer install with specified php version
